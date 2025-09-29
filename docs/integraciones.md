@@ -13,6 +13,8 @@
   - Validación de firmas digitales en webhooks y almacenamiento de logs.
   - Retries automáticos ante fallas de red, con backoff exponencial.
   - Almacenamiento seguro de tokens y llaves en el gestor de secretos.
+  - Conversión y validación de montos en soles (PEN) con soporte para comprobantes electrónicos SUNAT.
+  - Registro del canal de pago y referencia bancaria peruana (CCI) para conciliaciones.
 
 ## PagosNet
 
@@ -26,6 +28,8 @@
   - Validaciones previas: formato, montos, fechas de vencimiento, códigos de cliente.
   - Mapeo de códigos de error y reglas de reintento automatizadas.
   - Auditoría de todas las transferencias y retención de archivos por al menos 5 años.
+  - Control de versiones de plantillas y catálogos asociados a proyectos y manzanas.
+  - Conciliación contra módulos de flujo de caja y cuentas por cobrar.
 
 ## Consideraciones comunes
 
@@ -33,3 +37,6 @@
 - Registro centralizado de logs y dashboards de disponibilidad.
 - Estrategia de fallback manual en caso de indisponibilidad de las pasarelas.
 - Pruebas de extremo a extremo en entornos sandbox antes de subir a producción.
+- Cumplimiento de la Ley de Protección de Datos Personales (Ley N° 29733) y lineamientos de la SBS para recaudo de créditos.
+- Cifrado en tránsito (TLS 1.2+) y almacenamiento cifrado para archivos y credenciales.
+- Dashboards de conciliación que muestren estado por empresa, proyecto y método de financiamiento.

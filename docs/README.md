@@ -8,3 +8,4 @@ Esta carpeta recopila la especificación funcional y los lineamientos técnicos 
 - [`modelado_datos.md`](modelado_datos.md): entidades clave, relaciones y lineamientos para el modelado de la base de datos.
 - [`flujo_operativo.md`](flujo_operativo.md): diagramas y descripciones de los flujos transaccionales más importantes.
 - [`roadmap.md`](roadmap.md): plan de implementación incremental, hitos y entregables recomendados.
+- [`arquitectura_tecnologica.md`](arquitectura_tecnologica.md): stack recomendado, prácticas de seguridad y lineamientos de calidad.

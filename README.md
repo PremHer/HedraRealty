@@ -7,6 +7,8 @@ HedraRealty es un sistema integral de control interno para inmobiliarias especia
 | Área | Submódulos clave |
 | --- | --- |
 | Gestión comercial | Ventas al contado, ventas a plazos, separación de unidades, generador de contratos, generador de planes de pago, reversión de ventas |
+| Gestión de usuarios y roles | Administración de cuentas internas y externas, asignación granular de permisos (Super Admin, Admin, Gerente General, Finanzas, Comercial, Promotor) y políticas de autenticación reforzada |
+| Gestión de proyectos | Alta de proyectos con tipo (lotización), servicios, áreas comunes, área total en m², obras comprometidas y documentos base; modelado jerárquico proyecto → manzana → lote |
 | Gestión de inmuebles | Plano de disponibilidad por manzana y lote, transferencia de titularidad |
 | Administración financiera | Reprogramación de pagos, generador de recibos, cuentas por cobrar, cuentas en mora con intereses moratorios, integración con pasarelas de pago, flujo de caja por proyecto |
 | Gestión de capital humano | Comisiones para promotores |

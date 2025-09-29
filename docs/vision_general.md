@@ -18,6 +18,7 @@ HedraRealty es una plataforma de gestión inmobiliaria que centraliza los proces
 - Integraciones con pasarelas de pago locales (Multipagos y PagosNet) para recaudo automatizado.
 - Módulos de reportes tabulares y gráficos para monitorear indicadores comerciales, financieros y operativos, incluyendo flujo de caja por proyecto.
 - Configuración detallada de proyectos inmobiliarios con información de obras, servicios, documentos y porcentajes de avance/ventas para soportar la generación automática de contratos.
+- Administración centralizada de usuarios con roles diferenciados (Super Admin, Admin, Gerente General, Finanzas, Comercial, Promotor) y controles de acceso alineados al modelo multiempresa.
 
 ## Usuarios objetivo
 

@@ -98,6 +98,16 @@
 ## 6. Gestión multiempresa y proyectos
 - Creación y configuración de múltiples empresas con razón social, RUC, parámetros contables y plantillas de contrato.
 - Asociación de proyectos a empresas y asignación de gerentes generales responsables.
-- Configuración de manzanas y lotes por proyecto, con metadatos de dimensiones, uso, estado y precios.
+- Alta de proyectos con captura obligatoria de nombre comercial, tipo de proyecto (iniciando con **Lotización**), descripción, servicios ofrecidos, áreas comunes, área total en m² y documentos habilitantes.
+- Configuración de manzanas y lotes por proyecto, con metadatos de dimensiones, uso, estado, precios, numeración, coordenadas y restricciones de uso.
 - Registro de obras, servicios y entregables comprometidos por proyecto, con porcentajes de avance y ventas.
+- Versionado de la información de proyecto para mantener historial de cambios y soportar aprobaciones por Gerente General.
 - Dashboard consolidado para comparar desempeño entre empresas, proyectos y fases.
+
+## 7. Gestión de usuarios y roles
+- Administración centralizada de usuarios internos y externos con CRUD completo, importación masiva y desactivación programada.
+- Asignación de roles predefinidos (Super Admin, Admin, Gerente General, Finanzas, Comercial, Promotor) y creación de perfiles personalizados basados en políticas de mínimos privilegios.
+- Configuración de pertenencia de cada usuario a una o varias empresas y proyectos, controlando el acceso a manzanas y lotes específicos.
+- Gestión de autenticación reforzada: MFA obligatorio por rol, políticas de contraseñas, caducidad de sesiones e historial de inicios de sesión.
+- Automatización de onboarding (invitaciones por correo, aceptación de términos, carga de documentación) y offboarding con revocación inmediata de accesos y tokens.
+- Reportes de auditoría sobre cambios de permisos, accesos privilegiados y actividades críticas.

@@ -5,9 +5,9 @@
 | Entidad | Descripción | Relaciones clave |
 | --- | --- | --- |
 | `Empresa` | Compañía inmobiliaria con configuración fiscal y operativa propia. | 1:N con `Proyecto`, 1:N con `Usuario`, 1:N con `PlantillaContrato`. |
-| `Proyecto` | Desarrollo inmobiliario con fases, obras y lotes asociados. | N:1 con `Empresa`, 1:N con `Manzana`, 1:N con `Contrato`, 1:N con `IngresoEgreso`. |
+| `Proyecto` | Desarrollo inmobiliario con fases, obras y lotes asociados. Debe almacenar tipo (lotización), servicios ofrecidos, áreas comunes, área total en m², descripción comercial y documentos habilitantes. | N:1 con `Empresa`, 1:N con `Manzana`, 1:N con `Contrato`, 1:N con `IngresoEgreso`. |
 | `Manzana` | Agrupador de lotes dentro de un proyecto. | N:1 con `Proyecto`, 1:N con `Lote`. |
-| `Lote` | Unidad inmobiliaria con características físicas y estado comercial. | N:1 con `Manzana`, N:1 con `Proyecto`, 1:N con `Reserva`, 1:N con `Contrato`. |
+| `Lote` | Unidad inmobiliaria con características físicas (área, frente, fondo), estado comercial y restricciones. | N:1 con `Manzana`, N:1 con `Proyecto`, 1:N con `Reserva`, 1:N con `Contrato`. |
 | `Cliente` | Persona natural o jurídica que adquiere un lote. | 1:N con `Contrato`, 1:N con `Pago`, 1:N con `SolicitudReprogramacion`. |
 | `Contrato` | Acuerdo de compraventa que puede ser al contado o financiado. | N:1 con `Cliente`, N:1 con `Lote`, N:1 con `Proyecto`, 1:N con `PlanPago`, 1:N con `Recibo`. |
 | `PlanPago` | Cronograma de cuotas generadas a partir del contrato (francés, alemán, japonés). | N:1 con `Contrato`, 1:N con `Cuota`. |

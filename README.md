@@ -14,6 +14,11 @@ HedraRealty es un sistema integral de control interno para inmobiliarias especia
 | Gestión de capital humano | Comisiones para promotores |
 | Analítica y reportes | Dashboards, reportes tabulares, reportes gráficos |
 
+## Código fuente
+
+- [`backend/`](backend/README.md): prototipo inicial de la API NestJS con datos en memoria para empresas, proyectos, manzanas, lotes, finanzas y contratos.
+- `docs/`: documentación funcional, técnica y roadmap.
+
 ## Documentación
 
 Toda la documentación funcional y técnica se encuentra en la carpeta [`docs/`](docs/README.md).

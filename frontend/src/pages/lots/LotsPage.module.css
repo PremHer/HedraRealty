@@ -1,0 +1,71 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.filters {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.inputWrapper {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 0 12px;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  background: var(--color-surface);
+  color: #64748b;
+}
+
+.inputWrapper input {
+  border: none;
+  padding: 10px 0;
+  background: transparent;
+  color: var(--color-text);
+}
+
+.inputWrapper input:focus {
+  outline: none;
+}
+
+.filters select {
+  padding: 10px 14px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--color-border);
+  background: var(--color-surface);
+  color: var(--color-text);
+  min-width: 180px;
+}
+
+.iconButtonPrimary,
+.iconButtonSecondary {
+  width: 44px;
+  height: 44px;
+  border-radius: 14px;
+  border: none;
+  display: grid;
+  place-items: center;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: transform 0.15s ease, background 0.15s ease;
+}
+
+.iconButtonPrimary {
+  background: var(--color-primary);
+  color: #fff;
+}
+
+.iconButtonSecondary {
+  background: var(--color-primary-light);
+  color: var(--color-primary);
+}
+
+.iconButtonPrimary:hover,
+.iconButtonSecondary:hover {
+  transform: translateY(-2px);
+}

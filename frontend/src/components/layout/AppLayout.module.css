@@ -1,0 +1,23 @@
+.layout {
+  min-height: 100vh;
+  background: var(--color-bg);
+  transition: background var(--transition-base);
+}
+
+.main {
+  padding: 32px 24px 48px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+@media (max-width: 768px) {
+  .main {
+    padding: 24px 16px 40px;
+  }
+}

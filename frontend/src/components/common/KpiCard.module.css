@@ -1,0 +1,49 @@
+.card {
+  background: var(--color-surface);
+  border-radius: var(--radius-md);
+  border: 1px solid var(--color-border);
+  box-shadow: var(--shadow-sm);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.label {
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.75rem;
+  color: #6b7280;
+}
+
+.card strong {
+  font-size: 2rem;
+  color: var(--color-primary);
+}
+
+.trend {
+  font-size: 0.85rem;
+  color: #10b981;
+}
+
+.default {
+  background: var(--color-surface);
+}
+
+.positive {
+  background: #ecfdf5;
+  border-color: rgba(16, 185, 129, 0.4);
+}
+
+.positive strong {
+  color: #047857;
+}
+
+.warning {
+  background: #fff7ed;
+  border-color: rgba(249, 115, 22, 0.4);
+}
+
+.warning strong {
+  color: #c2410c;
+}
